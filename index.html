@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Угадай число!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Угадай число</h1>
+      <p class="between">(Число между 1 и 20)</p>
+      <button class="btn again">Снова!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <p class="message">Начните угадывать...</p>
+        <input type="number" class="guess" />
+        <button class="btn check">Проверка!</button>
+      </section>
+      <section class="right">
+        <p class="label-score">💯 Счет: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Рекорд: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="/script.js"></script>
+    <script src="/lesson.js"></script>
+  </body>
+</html>
